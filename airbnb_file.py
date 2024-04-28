@@ -1,0 +1,65 @@
+import streamlit as st
+from streamlit_option_menu import option_menu
+
+
+# Define the iframe URL
+iframe_url = "https://app.powerbi.com/view?r=eyJrIjoiMmJjNGNhZjctNTQyOC00YTFkLTk0ZTktOTYzMTY4MTUxZTgzIiwidCI6ImFmMTdmM2I2LTU4MWMtNGRhOS04ODk5LTA0MzM4MmM5OWY3OCJ9"
+
+st.set_page_config(layout="wide", page_title="Streamlit App", page_icon=":rocket:", initial_sidebar_state="expanded")
+
+
+st.title("Welcome to Airbnb Data Analysis!")
+st.write("")
+    # Display the iframe in Streamlit app
+st.components.v1.iframe(iframe_url, width=1400, height=800)
+st.write("---")
+
+
+st.markdown('<h1 style="color: red;">Insights from Airbnb</h1>', unsafe_allow_html=True)
+st.write("")
+st.write("---")
+st.write("")
+st.write("")
+st.markdown('<h3 style="color: #FFA07A;">1. What is the Total Host Count?</h3>', unsafe_allow_html=True)
+st.markdown('<h5>From the image, we can say that there is totally 43,118 hosts present in the year 2023</h5>', unsafe_allow_html=True)
+st.write("")
+st.write("---")
+st.write("")
+st.markdown('<h3 style="color: #FFA07A;">2. What is the Total Neighbourhoods Count?</h3>', unsafe_allow_html=True)
+st.markdown('<h5>From the image, we can say that there is totally 43k neighbourhoods present in the year 2023</h5>', unsafe_allow_html=True)
+st.write("---")
+st.write("")
+st.markdown('<h3 style="color: #FFA07A;">3. What is the Average review per month?</h3>', unsafe_allow_html=True)
+st.markdown('<h5>From the image, it is given that the  average reviews per month is 0.9</h5>', unsafe_allow_html=True)
+st.write("")
+st.write("---")
+st.markdown('<h3 style="color: #FFA07A;">4. What is the Total Reviews received?</h3>', unsafe_allow_html=True)
+st.markdown('<h5>From the image, it is given that total review counts to 1 million</h5>', unsafe_allow_html=True)
+st.write("---")
+st.markdown('<h3 style="color: #FFA07A;">5. Average price by Room Type.</h3>', unsafe_allow_html=True)
+st.markdown('<h5>From the above graph, we can see that the average price of Hotel rooms is higher as compared to other room types, where as the price of Shared room is cost efficient of all</h5>', unsafe_allow_html=True)
+st.write("---")
+st.markdown('<h3 style="color: #FFA07A;">6. Total booking among room type</h3>', unsafe_allow_html=True)
+st.markdown('<h5>From the above graph, Most of the population prefers High rise appartments/ Home, next comes the private rooms rather than hotel rooms</h5>', unsafe_allow_html=True)
+st.write("---")
+st.markdown('<h3 style="color: #FFA07A;">6. Total booking among room type</h3>', unsafe_allow_html=True)
+st.markdown('<h5>From the above graph, Most of the population prefers High rise appartments/ Home, next comes the private rooms rather than hotel rooms</h5>', unsafe_allow_html=True)
+st.write("---")
+st.markdown('<h3 style="color: #FFA07A;">7. Price among Neighbourhood_groups</h3>', unsafe_allow_html=True)
+st.markdown('<h5>From the above graph, The price of Private room in Staten Island is the highest and shared room in Bronx is the lowest</h5>', unsafe_allow_html=True)
+st.write("---")
+st.markdown('<h3 style="color: #FFA07A;">8. Bookings among Neighbourhood groups</h3>', unsafe_allow_html=True)
+st.markdown('<h5>From the above graph, Bookings in Brooklyn is the highest and Staten Island is the lowest</h5>', unsafe_allow_html=True)
+st.write("---")
+st.markdown('<h3 style="color: #FFA07A;">9. Which year has the highest booking?</h3>', unsafe_allow_html=True)
+st.markdown('<h5>From the above graph, 2023 is the year which has highest number of Booking out of which manhattan stands first and Staten island is the last</h5>', unsafe_allow_html=True)
+st.write("---")
+st.markdown('<h3 style="color: #FFA07A;">10. Price among both Neighbourhood and Neighbourhood_groups</h3>', unsafe_allow_html=True)
+st.markdown('<h5>From the above graph, The price of West brighton in Staten Island is the highest and New drop in Staten island is the lowest</h5>', unsafe_allow_html=True)
+st.write("---")
+st.markdown('<h3 style="color: #FFA07A;">11. Total reviews by neighbourhood and neighbourhood group</h3>', unsafe_allow_html=True)
+st.markdown('<h5>From the above graph, Bedford stuyvesant in Brooklyn has highest number of reviews. From the report the neighbourhood in brooklyn has the highest reviews</h5>', unsafe_allow_html=True)
+st.write("---")
+st.markdown('<h3 style="color: #FFA07A;">12. Availablity of rooms </h3>', unsafe_allow_html=True)
+st.markdown('<h5>From the above graph, On an Average most of the rooms are available above 200 days in an year </h5>', unsafe_allow_html=True)
+st.write("---")
