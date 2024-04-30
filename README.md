@@ -1,8 +1,9 @@
 # Airbnb-data-analysis
 
 ## 1. Import all the required packages and download powerBI desktop
+    
+    ![image](https://github.com/mad-huS/Airbnb-data-analysis/assets/156919023/74dfc9f4-010f-45cd-87fa-0c81c1ce3b42)
 
-    ![image](https://github.com/mad-huS/Airbnb-data-analysis/assets/156919023/c2e007cd-7c32-4e91-bb26-00adbaf85a63)
     download and install power BI desktop and login with your respective official mail id.
 
 ## 2. Data Cleaning:
