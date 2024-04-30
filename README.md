@@ -2,7 +2,7 @@
 
 ### 1. Import all the required packages and download powerBI desktop
     
-    '![image](https://github.com/mad-huS/Airbnb-data-analysis/assets/156919023/74dfc9f4-010f-45cd-87fa-0c81c1ce3b42)'
+    '![Screenshot 2024-04-30 164011](https://github.com/mad-huS/Airbnb-data-analysis/assets/156919023/f84ca8de-708f-4266-b6e6-2efc80005db5)
 
     download and install power BI desktop and login with your respective official mail id.
 
