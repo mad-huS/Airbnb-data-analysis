@@ -27,6 +27,21 @@
 
     ![image](https://github.com/mad-huS/Airbnb-data-analysis/assets/156919023/ff768ead-3a0b-43ab-b1f7-0552370e49bd)
 
+### 5. Check for data types and upload it into MongoDB:
+
+    Check all the data type of each columns in a data frame.
+
+    with the requried connection url connect your notebook with mongoDB and then upload the data frame in to the Mongodb by converting it into Dictionary format.
+
+    then retrieve the data from MongoDB and convert the data frame into csv file.
+
+### 6. Analyze and Visualize:
+
+    Analyse the data, upload the csv file into power BI desktop and analyse how can we visualize the data and there are much more options for visualizing. Try which ever is suitable.
+
+    ![image](https://github.com/mad-huS/Airbnb-data-analysis/assets/156919023/aa1490e0-794b-4575-8594-238b7740c768)
+
+
 
     
 
